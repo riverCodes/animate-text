@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <form>
+        <label for="text">Type text here:</label><br />
+        <input
+          type="text"
+          id="text"
+          name="text"
+          placeholder="and press Animate"
+          required
+        />
+        <button type="submit">Animate</button>
+        <button type="reset">Reset</button>
+      </form>
+      <div class="container"></div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
+
+<!-- <div
+    class="text"
+    style="
+      width: 22ch;
+      border-right: 3px solid black;
+      animation: type 2s steps(22),
+        blink 0.5s 2s step-start infinite alternate;
+    "
+  >
+  </div> -->
